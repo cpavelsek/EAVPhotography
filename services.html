@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="photography.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="container">
+<div id="header">
+<head>
+    <meta charset="UTF-8">
+    <title>EAV Photography</title>
+</head>
+</div>
+<div id="body">
+<body>
+
+<h1> EAV Photography</h1>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a>&nbsp;</li>
+        <li><a href="about.html">About</a> &nbsp;</li>
+        <li><a href="portfolio.html">Portfolio</a> </li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="row">
+    <div class="column">
+        <h2> Services </h2>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+    </div>
+    <div class="column">
+        <h2>Services</h2>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+    </div>
+    <div class="column">
+        <h2> Services </h2>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+    </div>
+    <div class="column">
+        <h2> Services </h2>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    </div>
+    <br>
+
+</div>
+
+
+    <label>
+        Hours ($100/hour): <br/>
+        <input type="number" name ="hour" id="qtyHour" value="Hours"/>
+        <br/></label>
+    <label>
+        Mileage Charge (.25/mile): <br/>
+        <input type="number" name="mile" id="qtyMile" value="mile"/>
+        <br/></label>
+    <label>
+        Photo Copies Needed (.35/photo): <br/>
+        <input type="number" name="photosNeeded" id="qtyPhoto" value="photosNeeded"/>
+    </label><br/>
+    <label>
+        Gratuity of 20% included<br/>
+
+    </label>
+    <br/>
+
+<br>
+<button type="button" id="cost" value="Estimate">Estimate Cost </button>
+
+<div id="finalEstimate"> </div>
+<br>
+<div id="comment"> </div>
+
+</div>
+
+<div id="footer">
+<footer>
+    <a href="http://facebook.com" class="fa fa-facebook"></a>
+    <a href="http://instagram.com" class="fa fa-instagram"></a>
+    <a href="http://twitter.com" class="fa fa-twitter"></a>
+</footer>
+</div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="photography.js"></script>
+</html>
